@@ -1,0 +1,37 @@
+name: FreshMart
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  badges: ^2.0.3
+  cupertino_icons: ^1.0.6
+  path_provider: ^2.1.5
+  cached_network_image: ^3.3.0
+  lib: ^0.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.jpg  # Ensure this file exists
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"  # Ensure correct path
