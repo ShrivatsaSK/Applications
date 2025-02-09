@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-
 void main() {
   runApp(
     MultiProvider(
@@ -13,10 +11,8 @@ void main() {
     ),
   );
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -43,7 +39,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class CartProvider extends ChangeNotifier {
   final List<CartItem> _items = [];
 
