@@ -64,6 +64,7 @@ class CartProvider extends ChangeNotifier {
       _items.fold(0, (sum, item) => sum + (item.product.price * item.quantity));
 }
 
+
 class WishlistProvider extends ChangeNotifier {
   final List<Product> _items = [];
 
