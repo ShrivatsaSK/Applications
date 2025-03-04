@@ -6,7 +6,6 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (_) => CartProvider()),
         ChangeNotifierProvider(create: (_) => WishlistProvider()),
-        
       ],
       child: const MyApp(),
     ),
