@@ -81,7 +81,6 @@ class _NotesHomePageState extends State<NotesHomePage> {
       },
     );
   }
-
   void _saveNote(String title, String content, String color) {
     setState(() {
       _notes.add({
